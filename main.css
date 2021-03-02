@@ -1685,8 +1685,8 @@ li.four-item:nth-child(even) {
 
   .lession-title {
     font-size: 18px;
-    margin: 3% 1% 0% 29%;
-    text-align: left;
+    margin: 3% 1% 0% 0%;
+    text-align: center;
   }
 
   .lession-list ul li .lession-text p {
