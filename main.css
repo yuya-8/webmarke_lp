@@ -1369,6 +1369,8 @@ li.four-item:nth-child(even) {
     transition: all 0.3s ease;
   }
 
+
+
   #entry .contents input,
   #entry .contents textarea {
     width: 94%;
@@ -1377,6 +1379,8 @@ li.four-item:nth-child(even) {
     border: 1px solid #ccc;
     border-radius: 3px;
   }
+
+
 
   #topcopy {
     font-size: 20px;
@@ -1391,7 +1395,7 @@ li.four-item:nth-child(even) {
   }
 
   #topcopy_part {
-    font-size: 60px;
+    font-size: 49px;
     line-height: 1.0;
     font-weight: bold;
     margin-top: 15px;
@@ -1407,7 +1411,7 @@ li.four-item:nth-child(even) {
     text-align: left;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
     margin-top: 30px;
-    margin-bottom: 90px;
+    margin-bottom: 40px;
   }
 
   #topcopybottom span {
