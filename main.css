@@ -1383,7 +1383,7 @@ li.four-item:nth-child(even) {
 
 
   #topcopy {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     color: #fff;
     text-align: left;
@@ -1832,6 +1832,10 @@ li.four-item:nth-child(even) {
   .colona-care p {
     padding-bottom: 0;
     margin-bottom: 0;
+  }
+
+  .colona-care li {
+    padding-bottom: 15px;
   }
 
   .monopolyText p {
