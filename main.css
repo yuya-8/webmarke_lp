@@ -168,6 +168,7 @@ footer {
   text-align: center;
   position: relative;
   background: url(hero-bg.jpg) no-repeat center top;
+  /* background: url(camfoo.jpg) no-repeat center top; */
   height: 600px;
   width: 100%;
   background-size: cover;
@@ -1367,16 +1368,21 @@ li.four-item:nth-child(even) {
     text-decoration: none;
     padding: 10px 0 10px 0;
     transition: all 0.3s ease;
-    /* border-bottom: solid 4px #3d424b;
-    border-radius: 3px; */
-    border-bottom: solid 2px #d27d00;/*少し濃い目の色に*/
-    border-radius: 4px;/*角の丸み*/
-    box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), 0 2px 2px rgba(0, 0, 0, 0.19);
+    border-bottom: 5px solid #ac1125;
   }
 
   a.btn-entry:hover {
-    opacity: 0.7;
+    margin-top: 3px;
+    color: #fff;
+    background: #f56500;
+    border-bottom: 2px solid #b84c00;
   }
+  a.btn-entry {
+    -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+    box-shadow: 0 6px 6px rgba(0, 0, 0, .3);
+  }
+
+
 
 
 
@@ -1592,6 +1598,7 @@ li.four-item:nth-child(even) {
   #hero {
     text-align: center;
     position: relative;
+    /* background: url(hero-bg.jpg) no-repeat center top; */
     background: url(hero-bg.jpg) no-repeat center top;
     height: auto;
     width: 100%;
@@ -1865,7 +1872,9 @@ li.four-item:nth-child(even) {
     font-weight: bold;
     margin-bottom: 0;
     padding-bottom: 0;
-    font-size: 17px;
+    font-size: 25px;
+    vertical-align: middle;
+    padding-top: 13px;
   }
 
   body {
