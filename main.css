@@ -1299,6 +1299,7 @@ li.four-item:nth-child(even) {
   padding: 20px;
   max-width: 830px;
   margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 .colona-care h3 {
@@ -1556,7 +1557,18 @@ li.four-item:nth-child(even) {
     margin-bottom: 20px;
   }
 
-  .bullet li {
+  .bullet li h1{
+    /* padding-left: 36px; */
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    list-style: none;
+    position: relative;
+    margin-left: 0;
+  }
+
+  .bullet li{
     padding-left: 36px;
     color: #333;
     font-size: 18px;
@@ -1565,6 +1577,10 @@ li.four-item:nth-child(even) {
     list-style: none;
     position: relative;
     margin-left: 0;
+  }
+
+  .bullet li p{
+    font-size: 15px;
   }
 
   #tokucho {
@@ -1599,7 +1615,7 @@ li.four-item:nth-child(even) {
     text-align: center;
     position: relative;
     /* background: url(hero-bg.jpg) no-repeat center top; */
-    background: url(hero-bg.jpg) no-repeat center top;
+    background: url(main.jpeg) no-repeat center top;
     height: auto;
     width: 100%;
     margin-bottom: 30px;
@@ -1634,6 +1650,28 @@ li.four-item:nth-child(even) {
     width: 100%;
   }
 
+  #f_submit {
+    padding: 10px;
+    display       : inline-block;
+    border-radius : 5%;          /* 角丸       */
+    font-size     : 20px;        /* 文字サイズ */
+    text-align    : center;      /* 文字位置   */
+    cursor        : pointer;     /* カーソル   */
+    padding       : 12px 12px;   /* 余白       */
+    background    : #6666ff;     /* 背景色     */
+    color         : #ffffff;     /* 文字色     */
+    line-height   : 1em;         /* 1行の高さ  */
+    transition    : .3s;         /* なめらか変化 */
+    box-shadow    : 3px 3px 1px #666666;  /* 影の設定 */
+    border        : 2px solid #6666ff;    /* 枠の指定 */
+  }
+
+  #f_submit:hover {
+    box-shadow    : none;        /* カーソル時の影消去 */
+    color         : #6666ff;     /* 背景色     */
+    background    : #ffffff;     /* 文字色     */
+  }
+
   .c-container {
     display: block;
     width: 100%;
@@ -1658,6 +1696,11 @@ li.four-item:nth-child(even) {
   .Organizer-image {
     width: 100%;
     height: 350px;
+  }
+
+  .event-image {
+    width: 80%;
+    margin:0 10%;
   }
 
   h3 {
