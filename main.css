@@ -1413,8 +1413,8 @@ li.four-item:nth-child(even) {
     text-align: left;
     width: 92%;
     margin: 0 auto;
-    margin-top: 80px;
-    margin-bottom: 70px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
   }
 
@@ -1615,7 +1615,7 @@ li.four-item:nth-child(even) {
     text-align: center;
     position: relative;
     /* background: url(hero-bg.jpg) no-repeat center top; */
-    background: url(ad.png) no-repeat center top;
+    background: url(ad2.png) no-repeat center top;
     height: auto;
     width: 100%;
     margin-bottom: 30px;
